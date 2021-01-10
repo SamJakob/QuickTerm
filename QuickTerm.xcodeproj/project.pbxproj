@@ -50,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		391F27DB25AB15CD00705780 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				394DCFDC25AA369D006FA5D9 /* QuickTermWindowController.h */,
+				394DCFDD25AA369D006FA5D9 /* QuickTermWindowController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		394DCFBB25AA34E9006FA5D9 = {
 			isa = PBXGroup;
 			children = (
@@ -69,33 +78,32 @@
 		394DCFC625AA34E9006FA5D9 /* QuickTerm */ = {
 			isa = PBXGroup;
 			children = (
-				3998301B25AAD28E007C2B24 /* DraggableNSWidgets */,
+				391F27DB25AB15CD00705780 /* Controllers */,
+				3998301B25AAD28E007C2B24 /* Extensions */,
 				394DCFC725AA34E9006FA5D9 /* AppDelegate.h */,
 				394DCFC825AA34E9006FA5D9 /* AppDelegate.m */,
-				394DCFDC25AA369D006FA5D9 /* QuickTermWindowController.h */,
-				394DCFDD25AA369D006FA5D9 /* QuickTermWindowController.m */,
-				399D658D25AA997800982FC6 /* QuickTermWindow.h */,
-				399D658E25AA997800982FC6 /* QuickTermWindow.m */,
 				394DCFCA25AA34E9006FA5D9 /* ViewController.h */,
 				394DCFCB25AA34E9006FA5D9 /* ViewController.m */,
-				399D659225AAA7D600982FC6 /* CenteredNSTextFieldCell.h */,
-				399D659325AAA7D600982FC6 /* CenteredNSTextFieldCell.m */,
-				394DCFCD25AA34EA006FA5D9 /* Assets.xcassets */,
-				394DCFCF25AA34EA006FA5D9 /* Main.storyboard */,
-				394DCFD225AA34EA006FA5D9 /* Info.plist */,
 				394DCFD325AA34EA006FA5D9 /* main.m */,
+				394DCFD225AA34EA006FA5D9 /* Info.plist */,
+				394DCFCF25AA34EA006FA5D9 /* Main.storyboard */,
+				394DCFCD25AA34EA006FA5D9 /* Assets.xcassets */,
 				394DCFD525AA34EA006FA5D9 /* QuickTerm.entitlements */,
 			);
 			path = QuickTerm;
 			sourceTree = "<group>";
 		};
-		3998301B25AAD28E007C2B24 /* DraggableNSWidgets */ = {
+		3998301B25AAD28E007C2B24 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				399D658D25AA997800982FC6 /* QuickTermWindow.h */,
+				399D658E25AA997800982FC6 /* QuickTermWindow.m */,
+				399D659225AAA7D600982FC6 /* CenteredNSTextFieldCell.h */,
+				399D659325AAA7D600982FC6 /* CenteredNSTextFieldCell.m */,
 				3998301725AAD286007C2B24 /* DraggableNSImageView.h */,
 				3998301825AAD286007C2B24 /* DraggableNSImageView.m */,
 			);
-			path = DraggableNSWidgets;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

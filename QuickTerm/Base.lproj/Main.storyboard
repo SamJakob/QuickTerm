@@ -62,7 +62,7 @@
                             <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="H5C-km-41O">
                                 <rect key="frame" x="60" y="10" width="598" height="40"/>
                                 <textFieldCell key="cell" controlSize="large" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="border" focusRingType="none" alignment="left" placeholderString="Command..." id="BZF-cI-uAU" customClass="CenteredNSTextFieldCell">
-                                    <font key="font" size="18" name="HelveticaNeue"/>
+                                    <font key="font" size="18" name="Menlo-Regular"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>

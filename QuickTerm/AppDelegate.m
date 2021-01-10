@@ -75,6 +75,8 @@ CGEventRef cgKeyboardCallback(CGEventTapProxy proxy, CGEventType type, CGEventRe
         startupPoint.x -= 340;
         startupPoint.y -= 30;
         
+        startupPoint.y += 120;
+        
         [self->mainWindowController.window setFrame:NSMakeRect(startupPoint.x, startupPoint.y, 680, 60) display:true];
         
         [[NSApp mainWindow] makeKeyWindow];
